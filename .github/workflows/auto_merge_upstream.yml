@@ -1,4 +1,8 @@
 name: Merge upstream branches
+
+permissions:
+  contents: write
+
 on:
   push:
   schedule:
@@ -8,6 +12,7 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
     steps:
       - uses: actions/checkout@v5
       - name: Merge upstream
