@@ -130,7 +130,7 @@
                         </el-table-column>
                         <el-table-column v-if="visibleColumns.date">
                             <template #header>
-                                <el-tooltip :content="$t('last trigger date tooltip')" placement="top" popperClass="wide-tooltip">
+                                <el-tooltip :content="$t('last trigger date tooltip')" placement="top" effect="light" popperClass="wide-tooltip">
                                     <span>{{ $t('last trigger date') }}</span>
                                 </el-tooltip>
                             </template>
@@ -140,7 +140,7 @@
                         </el-table-column>
                         <el-table-column>
                             <template #header>
-                                <el-tooltip :content="$t('context updated date tooltip')" placement="top" popperClass="wide-tooltip">
+                                <el-tooltip :content="$t('context updated date tooltip')" placement="top" effect="light" popperClass="wide-tooltip">
                                     <span>{{ $t('context updated date') }}</span>
                                 </el-tooltip>
                             </template>
@@ -155,7 +155,7 @@
                             :sortOrders="['ascending', 'descending']"
                         >
                             <template #header>
-                                <el-tooltip :content="$t('next evaluation date tooltip')" placement="top" popperClass="wide-tooltip">
+                                <el-tooltip :content="$t('next evaluation date tooltip')" placement="top" effect="light" popperClass="wide-tooltip">
                                     <span>{{ $t('next evaluation date') }}</span>
                                 </el-tooltip>
                             </template>
@@ -272,7 +272,7 @@
     import BulkSelect from "../layout/BulkSelect.vue";
     import TriggerAvatar from "../flows/TriggerAvatar.vue";
     import CalendarCollapseHorizontalOutline from "vue-material-design-icons/CalendarCollapseHorizontalOutline.vue";
-    import TriggerFilterLanguage from "../../composables/monaco/languages/filters/impl/triggerFilterLanguage.ts";
+    import TriggerFilterLanguage from "../../composables/monaco/languages/filters/impl/triggerFilterLanguage";
 </script>
 <script>
     import RouteContext from "../../mixins/routeContext";
