@@ -230,6 +230,7 @@
     "current": "当前",
     "current execution": "当前执行",
     "custom value": "自定义值",
+    "customize sidebar": "自定义侧边栏",
     "dark_version": "深色版本",
     "dashboards": {
       "chart_preview": "单击图表源代码以查看其预览",
@@ -482,6 +483,7 @@
     "download logs": "下载日志",
     "download_logos": "下载 Logo 包",
     "draft_available": "编辑器中有可用的草稿更改",
+    "drop items here": "将项目拖放到此处",
     "duplicate-pair": "{label} \"{key}\" 是重复的，第一个 key 被忽略。",
     "duration": "持续时间",
     "dynamic": "动态",
@@ -1551,6 +1553,7 @@
     "replayed": "执行已重放",
     "required field": "必填字段",
     "reset": "重置",
+    "reset to defaults": "重置为默认值",
     "restart": "重新开始",
     "restart change revision": "你可以更改用于新执行的修订版。",
     "restart confirm": "确定要重新开始执行 <code>{id}</code> 吗？",
@@ -1699,6 +1702,15 @@
           "label": "保存偏好设置",
           "unsaved_title": "未保存的更改",
           "unsaved_warning": "您有未保存的更改。您想在离开之前保存它们吗？"
+        },
+        "sidebar": {
+          "descriptions": {
+            "items": "在侧边栏中显示、隐藏和重新排序项目。"
+          },
+          "fields": {
+            "items": "导航项"
+          },
+          "label": "侧边栏"
         },
         "theme": {
           "color_modes": {
@@ -1943,15 +1955,8 @@
     "triggers": "触发器",
     "triggers_add_card_add": "添加",
     "triggers_add_card_add_to_flow": "添加到flow",
-    "triggers_add_category_app_description": "定期检查外部资源的变化。",
-    "triggers_add_category_app_title": "应用 Triggers",
-    "triggers_add_category_core_description": "内置触发器是大多数工作流所必需的。",
-    "triggers_add_category_core_title": "核心触发器",
     "triggers_add_category_empty": "此类别中没有trigger。",
-    "triggers_add_category_realtime_description": "即时响应来自消息系统的事件。",
-    "triggers_add_category_realtime_title": "实时触发器",
     "triggers_add_ee_tooltip": "此trigger需要企业版。",
-    "triggers_add_empty_hint": "尝试不同的搜索词或浏览所有类别。",
     "triggers_add_empty_title": "未找到trigger",
     "triggers_add_filter_all": "全部",
     "triggers_add_filter_app": "应用程序",
@@ -1969,8 +1974,6 @@
     "triggers_add_modal_trigger_id": "触发器ID",
     "triggers_add_modal_trigger_id_placeholder": "此trigger的唯一标识符",
     "triggers_add_search_placeholder": "搜索 triggers...",
-    "triggers_add_see_less": "查看较少",
-    "triggers_add_see_more": "查看更多（还有 {count} 个）",
     "triggers_header_description": "浏览、添加和管理触发器以自动化您的flows。您可以选择将flow公开为AI工具、进行调度、添加webhook trigger、轮询外部应用程序中的更改或实时事件监听器。",
     "triggers_state": {
       "options": {
@@ -2025,6 +2028,7 @@
     "watch": "监视",
     "watch_video": "观看视频",
     "webhook": {
+      "copy_url": "复制 webhook URL",
       "curl_command": "Webhook cURL 命令",
       "curl_note": "使用此 cURL 命令通过 webhook 触发 flow，并使用自定义 JSON 负载",
       "no_triggers": "此flow没有启用的webhook triggers",
