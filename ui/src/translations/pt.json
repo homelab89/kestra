@@ -867,6 +867,8 @@
     "form error": "Erro no formulário",
     "from": "De",
     "gantt": "Gantt",
+    "gantt_no_tasks_executed": "Esta execução terminou sem executar nenhuma task.  \nVerifique sua visão geral e logs para encontrar o motivo.",
+    "gantt_no_tasks_match_filters": "Nenhuma task corresponde aos filtros selecionados. <br> Tente ajustar os filtros de busca, estado ou nível de log.",
     "healthcheck date": "Data do HealthCheck",
     "hide task documentation": "Ocultar documentação da task",
     "home": "Início",
@@ -952,6 +954,7 @@
       "raw_details": "Mostrar logs completos de task e flow em formato bruto ordenado por timestamp"
     },
     "main_configuration": "Configuração Principal",
+    "manage labels": "Gerenciar labels",
     "management port": "Port de gerenciamento",
     "mark as": "Marcar como <code>{status}</code>",
     "max": "Max",
@@ -1148,6 +1151,7 @@
     "no data current task": "Não há dados disponíveis para a tarefa atual",
     "no inputs": "Este flow não tem inputs.",
     "no result": "Não há resultados para serem exibidos.",
+    "no revisions": "Sem revisões",
     "no revisions found": "Existe apenas uma revisão para este flow",
     "no-executions-view": {
       "guidance_desc": "Precisa de orientação para executar o seu flow?",
@@ -1671,7 +1675,6 @@
     "sequential": "Sequencial",
     "server type": "Tipo de servidor",
     "services": "Serviços",
-    "set_extra_labels": "Definir labels extras",
     "settings": {
       "blocks": {
         "configuration": {
@@ -1684,7 +1687,8 @@
             "flow_default_tab": "Aba selecionada ao navegar para um flow.",
             "log_display": "Como os logs são apresentados ao abrir uma execução.",
             "log_level": "Nível mínimo de log mostrado nos logs de execução.",
-            "playground": "Execute tasks individualmente no editor playground."
+            "playground": "Execute tasks individualmente no editor playground.",
+            "triggers_default_tab": "Aba selecionada ao navegar para a página de triggers."
           },
           "fields": {
             "auto_refresh_interval": "Intervalo de Atualização Automática",
@@ -1697,7 +1701,8 @@
             "log_display": "Exibição de Log Padrão",
             "log_level": "Nível de Log Padrão",
             "multi_panel_editor": "Editor de Painel Múltiplo",
-            "playground": "Playground"
+            "playground": "Playground",
+            "triggers_default_tab": "Aba de Triggers Padrão"
           },
           "label": "Configuração Principal"
         },
@@ -1889,6 +1894,12 @@
     "source and topology": "Fonte e topologia",
     "source only": "Somente fonte",
     "source search": "Busca de fonte",
+    "source_search": {
+      "match_count": "{count} correspondência | {count} correspondências",
+      "open_flow": "Abrir flow",
+      "preview_empty": "Selecione um resultado para pré-visualizar. Clique num flow na lista de resultados para ver a sua fonte.",
+      "preview_error": "Falha ao carregar a fonte do flow"
+    },
     "specific task": "Task específica",
     "start date": "Data de início",
     "start datetime": "Data e hora de início",

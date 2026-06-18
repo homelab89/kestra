@@ -867,6 +867,8 @@
     "form error": "フォームエラー",
     "from": "から",
     "gantt": "ガント",
+    "gantt_no_tasks_executed": "このExecutionは、タスクを実行せずに終了しました。  \n理由を確認するには、概要とLogsをチェックしてください。",
+    "gantt_no_tasks_match_filters": "選択したフィルターに一致するタスクがありません。<br> 検索、状態、またはログレベルのフィルターを調整してみてください。",
     "healthcheck date": "HealthCheck日",
     "hide task documentation": "taskのドキュメントを非表示",
     "home": "ホーム",
@@ -952,6 +954,7 @@
       "raw_details": "タスクログとフローのログをタイムスタンプ順に生の形式で表示"
     },
     "main_configuration": "メイン設定",
+    "manage labels": "ラベルを管理",
     "management port": "管理ポート",
     "mark as": "<code>{status}</code>としてマーク",
     "max": "Max",
@@ -1148,6 +1151,7 @@
     "no data current task": "現在のタスクに利用可能なデータがありません。",
     "no inputs": "このflowにはinputがありません。",
     "no result": "表示する結果がありません。",
+    "no revisions": "リビジョンなし",
     "no revisions found": "このFlowには1つのリビジョンしか存在しません",
     "no-executions-view": {
       "guidance_desc": "フローを実行するためのガイダンスが必要ですか？",
@@ -1671,7 +1675,6 @@
     "sequential": "逐次",
     "server type": "サーバータイプ",
     "services": "サービス",
-    "set_extra_labels": "追加のラベルを設定",
     "settings": {
       "blocks": {
         "configuration": {
@@ -1684,7 +1687,8 @@
             "flow_default_tab": "フローに移動するときに選択されたタブ。",
             "log_display": "実行を開いたときにログが表示される方法。",
             "log_level": "実行ログに表示される最小のLogレベル。",
-            "playground": "エディタープレイグラウンドでタスクを個別に実行します。"
+            "playground": "エディタープレイグラウンドでタスクを個別に実行します。",
+            "triggers_default_tab": "トリガーページに移動するときに選択されたタブ。"
           },
           "fields": {
             "auto_refresh_interval": "自動更新間隔",
@@ -1697,7 +1701,8 @@
             "log_display": "デフォルトLog表示",
             "log_level": "デフォルトLogレベル",
             "multi_panel_editor": "マルチパネルエディタ",
-            "playground": "プレイグラウンド"
+            "playground": "プレイグラウンド",
+            "triggers_default_tab": "デフォルトトリガーのタブ"
           },
           "label": "メイン設定"
         },
@@ -1889,6 +1894,12 @@
     "source and topology": "ソースとトポロジー",
     "source only": "ソースのみ",
     "source search": "ソース検索",
+    "source_search": {
+      "match_count": "{count} 件一致 | {count} 件一致",
+      "open_flow": "flow を開く",
+      "preview_empty": "プレビューする結果を選択してください。結果リストの flow をクリックするとソースが表示されます。",
+      "preview_error": "flow ソースの読み込みに失敗しました"
+    },
     "specific task": "特定のTask",
     "start date": "開始日",
     "start datetime": "開始日時",
