@@ -107,6 +107,12 @@
     "total_duration": "Gesamtdauer",
     "running duration": "Laufzeitdauer",
     "queued duration": "Warteschlangendauer",
+    "executionProgress": {
+        "title": "Ausführungsfortschritt",
+        "estimatedRemaining": "Geschätzte Restzeit: {duration}",
+        "noBaseline": "Keine historischen Daten — Restzeit kann nicht geschätzt werden",
+        "pastEstimate": "Läuft länger als üblich"
+    },
     "choose file": "Wählen Sie eine Datei oder ziehen Sie sie hierher...",
     "launch execution": "Ausführen",
     "warning flow with triggers": "Dieser Flow enthält Trigger und eine manuelle Ausführung wird fehlschlagen, wenn dieser Flow von Trigger-Ausdrücken abhängt.",
@@ -1641,7 +1647,9 @@
       "connection_lost": {
         "title": "Verbindung unterbrochen",
         "message": "Wir konnten Ihre Kestra-Instanz nicht erreichen. Stellen Sie sicher, dass sie läuft, und aktualisieren Sie dann die Seite."
-      }
+      },
+      "opening_flow_editor": "Beim Öffnen des flow-Editors ist etwas schiefgelaufen.",
+      "retry": "Wiederholen"
     },
     "debug": "Debuggen",
     "default": "Standard",
@@ -1944,10 +1952,27 @@
         },
         "toolCall": "Wird ausgeführt {tool}",
         "context": {
+          "app": "App: {{app}}",
+          "blueprint": "Blueprint: {blueprint}",
+          "dashboard": "Dashboard: {{dashboard}}",
           "execution": "Ausführung: {{id}}",
           "flow": "Flow: {flow}",
-          "namespace": "Namespace: {{namespace}}"
+          "namespace": "Namespace: {{namespace}}",
+          "plugin": "Plugin: {plugin}",
+          "test": "Test: {{test}}"
         },
+        "contextAdded": "Hinzugefügt {type} {id} zum Kontext.",
+        "contextNoun": {
+          "app": "Anwendung",
+          "blueprint": "blueprint",
+          "dashboard": "Dashboard",
+          "execution": "Ausführung",
+          "flow": "flow",
+          "namespace": "namespace",
+          "plugin": "Plugin",
+          "test": "Test"
+        },
+        "contextRemoved": "Entfernt {type} {id} aus dem Kontext.",
         "toolResult": {
           "detail": "Details",
           "error": "{{tool}} fehlgeschlagen",
